@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { SelectWrapper } from './styleLanguageSelector';
 
 export default function LanguageSelector() {
   const { i18n } = useTranslation();
@@ -8,17 +9,15 @@ export default function LanguageSelector() {
   };
 
   return (
-    <>
+    <SelectWrapper>
       <select
         name="language-selector"
         onChange={e => handleChangeLanguage(e.target.value)}
       >
         <option value="uk">UK</option>
-        <option value="hl">HL</option>
+        <option value="nl">NL</option>
       </select>
-      <div>
-        <p>{}</p>
-      </div>
-    </>
+      <div></div>
+    </SelectWrapper>
   );
 }

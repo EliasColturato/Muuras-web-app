@@ -1,6 +1,6 @@
 import LanguageSelector from '../LanguageSelector/languageSelector';
 import { useTranslation } from 'react-i18next';
-import { HeaderActions, HeaderLinks, WrapperHeader } from './styleHome';
+import { HeaderActions, HeaderLinks, WrapperHeader } from './styleHeader';
 
 export default function Header() {
   const { t } = useTranslation();

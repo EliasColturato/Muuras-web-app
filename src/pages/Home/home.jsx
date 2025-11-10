@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header/Header';
+import CardsElements from '../../components/CardsElements/CardsElements';
 import {
   HeroContainer,
   HeroContentWrapper,
@@ -10,6 +11,10 @@ import {
   ResiliciencyContainer,
   ResiliciencyCardWrapper,
   ResiliciencyText,
+  ElementsContainer,
+  ElementsWrapperCards,
+  ElementsTitle,
+  ElementsContentWrapper,
 } from './styleHome';
 
 export default function Home() {
@@ -67,6 +72,31 @@ export default function Home() {
           </ResiliciencyText>
         </ResiliciencyCardWrapper>
       </ResiliciencyContainer>
+      <ElementsContainer>
+        <ElementsContentWrapper>
+          <ElementsTitle>
+            <h3>{t('elementsSection.title')}</h3>
+            <p>{t('elementsSection.subtitle')}</p>
+          </ElementsTitle>
+          <ElementsWrapperCards>
+            <CardsElements
+              imgPath="./assets/ElementsBanner-1.png"
+              Title={t('elementsSection.card1.title')}
+              Text={t('elementsSection.card1.text')}
+            />
+            <CardsElements
+              imgPath="./assets/ElementsBanner-2.png"
+              Title={t('elementsSection.card2.title')}
+              Text={t('elementsSection.card2.text')}
+            />
+            <CardsElements
+              imgPath="./assets/ElementsBanner-3.png"
+              Title={t('elementsSection.card3.title')}
+              Text={t('elementsSection.card3.text')}
+            />
+          </ElementsWrapperCards>
+        </ElementsContentWrapper>
+      </ElementsContainer>
     </>
   );
 }

@@ -28,15 +28,7 @@ export const HeaderLinks = styled.div`
 export const HeaderActions = styled.div`
   display: flex;
   align-items: center;
-  column-gap: 0.5rem;
-  select {
-    background: none;
-    color: ${Text.inverted};
-    border: none;
-  }
-  option {
-    color: ${Text.primary};
-  }
+  column-gap: 16px;
   button {
     display: flex;
     height: 48px;

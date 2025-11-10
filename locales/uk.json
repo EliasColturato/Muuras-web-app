@@ -11,5 +11,14 @@
   "heroSection.cardText": "We are eager to spread our Wetland Wall technology to new places, or to help you realize your own bio-based technology - let’s grow greener cities together!",
   "resilienceSection.title": "Restoring Natural Resilience:",
   "resilienceSection.text": "Resilient cities are the future of urban living. Resilient cities keep humans safe, sheltered, and healthy in the face of extreme weather, pollution, and climate change. Muuras collaborates with nature to fulfil its mission: restoring the resilience of cities to safeguard life itself.",
-  "resilienceSection.button": "Work with us"
+  "resilienceSection.button": "Work with us",
+  "elementsSection.title": "Growing Resilient Cities",
+  "elementsSection.subtitle": "Elements of a resilient city.",
+  "elementsSection.card1.title": "Healthy ecosystems",
+  "elementsSection.card1.text": "Like all living beings, humans need a healthy home (eco comes from the Greek word for home: ‘oikos’), where they can drink clean water, eat clean food, and breathe clean air. Resilient cities provide healthy homes not just by avoiding unnecessary pollution, but also by actively removing existing pollutants from the environment.",
+  "elementsSection.card2.title": "Coexistence",
+  "elementsSection.card2.text": "Life is better when it is shared: we choose to live in cities for a reason, and our lives fundamentally depend on other species. In resilient cities, nature-inclusive design harnesses the unique strengths of different life forms (plants, animals, fungi, etc.) to create a self-regulating environment that keeps us safe and is prepared to deal with unpredictable events.",
+  "elementsSection.card3.title": "Sustainable development",
+  "elementsSection.card3.text": "‘If you’re not growing you’re dying’, so resilient cities are always in development. Being ready for the future requires finding new ways of being, of organising ourselves, of building (infra)structures, of using our resources. Every day, we use what we have to make life in the city a little better, without placing a burden on another place or time.",
+  "elementsSection.button": "Grow resilient cities now"
 }

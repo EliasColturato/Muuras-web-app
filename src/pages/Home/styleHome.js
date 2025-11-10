@@ -91,3 +91,36 @@ export const ResiliciencyText = styled.div`
     font-size: 48px;
   }
 `;
+
+export const ElementsContainer = styled.div`
+  width: 100%;
+  justify-content: center;
+  display: flex;
+`;
+
+export const ElementsContentWrapper = styled.div`
+  max-width: 1152px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 0;
+  row-gap: 4rem;
+`;
+
+export const ElementsWrapperCards = styled.div`
+  display: flex;
+  column-gap: 2rem;
+`;
+
+export const ElementsTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    color: ${PrimaryColors.primary900};
+  }
+`;
